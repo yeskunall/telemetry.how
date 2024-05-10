@@ -45,6 +45,22 @@ export GATSBY_TELEMETRY_DISABLED=1
 
 ###### [Relevant docs](https://www.gatsbyjs.com/docs/telemetry#how-to-opt-out)
 
+### Homebrew
+
+```shell
+export HOMEBREW_NO_ANALYTICS=1
+```
+
+###### [Relevant docs](https://docs.brew.sh/Analytics)
+
+### Netlify
+
+```shell
+netlify --telemetry-disable
+```
+
+###### [Relevant docs](https://docs.netlify.com/cli/get-started/#usage-data-collection)
+
 ### Next.js
 
 ```shell
@@ -53,11 +69,13 @@ export NEXT_TELEMETRY_DISABLED=1
 
 ###### [Relevant docs](https://nextjs.org/telemetry)
 
-### PlanetScale
+### Nuxt.js
 
 ```shell
-export CHECKPOINT_DISABLE=1
+export NUXT_TELEMETRY_DISABLED=1
 ```
+
+###### [Relevant docs](https://github.com/nuxt/telemetry)
 
 ### Prisma
 
