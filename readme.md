@@ -21,6 +21,23 @@ Telemetry should be opt-in by default, but that’s not always the case. This li
 > [!NOTE]
 > If you know of any other tools or libraries that should be added to this list, please open a pull request.
 
+### Angular CLI
+
+```shell
+ng analytics disable && \
+ng analytics off
+```
+
+###### [Relevant docs](https://angular.io/cli/analytics#disable)
+
+### Apollo Router
+
+```shell
+export APOLLO_TELEMETRY_DISABLED=true
+```
+
+###### [Relevant docs](https://www.apollographql.com/docs/router/privacy/)
+
 ### Astro
 
 ```shell
