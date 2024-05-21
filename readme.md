@@ -110,6 +110,18 @@ export TURBO_TELEMETRY_DISABLED=1
 
 ###### [Relevant docs](https://turbo.build/repo/docs/telemetry#how-do-i-opt-out)
 
+### Vercel CLI
+
+Copy the following into `$XDG_DATA_HOME/com.vercel.cli/config.json`:
+
+```json
+{
+  "collectMetrics": false
+}
+```
+
+###### [Relevant docs](https://vercel.com/docs/projects/project-configuration/global-configuration#collectmetrics)
+
 ## License
 
 [MIT](license) © [Kunall Banerjee](https://kimchiii.space)
