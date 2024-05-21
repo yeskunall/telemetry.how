@@ -102,6 +102,14 @@ export CHECKPOINT_DISABLE=1
 
 ###### [Relevant docs](https://www.prisma.io/docs/orm/tools/prisma-cli#how-to-opt-out-of-data-collection)
 
+### Turborepo
+
+```shell
+export TURBO_TELEMETRY_DISABLED=1
+```
+
+###### [Relevant docs](https://turbo.build/repo/docs/telemetry#how-do-i-opt-out)
+
 ## License
 
 [MIT](license) © [Kunall Banerjee](https://kimchiii.space)
